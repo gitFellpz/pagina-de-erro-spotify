@@ -1,0 +1,197 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    height: 40px;
+}
+header .logo{
+    margin-left: 5%;
+}
+header .logo:hover{
+    cursor: pointer;
+}
+header .box{
+    display: flex;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    gap: 20px;
+}
+header nav p:hover{
+    color: darkgray;
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-duration: 300ms;
+    
+}
+header .barra{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+header .boxPerfil{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header .box .perfill{
+    display: flex;
+}
+header .box .boxPerfil .inc:hover{
+    color: darkgray;
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-duration: 300ms;
+}
+header .box .boxPerfil .ent{
+    padding: 13px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+header .box .boxPerfil .ent:hover{
+    padding: 14px;
+    cursor: pointer;
+    margin-left: -2px;
+}
+header .box{
+    margin-right: 5%;
+}
+
+
+
+
+/*--CONTEUDO PRINCIPAL--*/
+main{
+    background-color: #9EF0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 10%;
+}
+main .boxTxt{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 30px;
+    width: 400px;
+    z-index: 2;
+
+}
+main .boxTxt h1{
+    margin-bottom: 20px;
+}
+main .boxTxt p{
+    color: #49484D;
+}
+main button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 9px 9px 9px 0px;
+    background-color: #9ef1e7;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+main button:hover{
+    color: darkgrey;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-duration: 300ms;
+}
+main img{
+    z-index: 1;
+}
+
+/*--FOOTER--*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 20px 50px 20px;
+    font-family: 'Rubik', sans-serif;
+}
+footer .logo{
+    float: left;
+    margin-right: 15px;
+}
+footer h1{
+    font-size: 12px;
+    color: gray;
+}
+footer p{
+    font-size: 12px;
+}
+footer .footer1{
+    display: flex;
+    justify-content: space-between;
+    width: min(100% - 15px, 1200px);
+    margin-inline: auto;
+}
+footer .footer1 .boxEmpresa p,
+ .footer1 .boxComunidade p,
+  .footer1 .boxLinks p{
+    margin-top: 20px;
+}
+footer .footer1 .boxEmpresa p:hover,
+ .footer1 .boxComunidade p:hover,
+  .footer1 .boxLinks p:hover{
+    color: gray;
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-duration: 300ms;
+}
+footer .footer1 .logos{
+    display: flex;
+    gap: 10px;
+}
+footer .footer1 .logos img{
+    height: 20px;
+    padding: 10px;
+    background-color: #49484D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer .footer2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+footer .footer2 .nn1{
+    display: flex;
+    gap: 20px;
+    width: min(100% - 15px, 1200px);
+    margin-inline: auto;
+}
+footer .footer2 .nn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+footer .footer2 .nn1 p:hover{
+    color: white;
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-duration: 300ms;
+}
+footer .footer1 .logos img:hover{
+    background-color: gray;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-duration: 400ms;
+
+}
+
+
+
+
+
