@@ -199,9 +199,6 @@ footer{
     padding: 50px 20px 50px 20px;
     font-family: 'Rubik', sans-serif;
 }
-footer .logo{
-    margin-right: 50px;
-}
 footer h1{
     font-size: 12px;
     color: gray;
@@ -214,7 +211,7 @@ footer .footer1{
     justify-content: space-between;
     width: min(100% - 15px, 1200px);
     margin-inline: auto;
-    gap: 30px;
+    gap: 40px 80px;
     flex-wrap: wrap;
 }
 footer .footer1 .boxEmpresa p,
@@ -227,12 +224,12 @@ footer .footer1 .boxEmpresa ,
   .footer1 .boxLinks {
     width: 150px;
 }
-@media(max-width: 380px){
+@media(max-width: 384px){
     footer .footer1{
         justify-content: center;
     }
-    footer .logo{
-
+    footer .footer1 .box{
+        text-align: center;
     }
 }
 footer .footer1 .boxEmpresa p:hover,
@@ -259,6 +256,7 @@ footer .footer2{
     display: flex;
     justify-content: space-between;
     color: gray;
+    gap: 40px;
 }
 footer .footer2 .nn1{
     display: flex;
@@ -283,5 +281,4 @@ footer .footer1 .logos img:hover{
     background-color: gray;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1);
     transition-duration: 400ms;
-
 }
