@@ -1,13 +1,16 @@
 header{
     background-color: black;
-    color: white;
+}
+header .header-container{
     display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
-    align-items: center;
     padding: 15px;
-    justify-content: space-between;
-    height: 40px;
+    min-height: 40px;
+
 }
 header .logo{
     margin-left: 5%;
