@@ -4,19 +4,18 @@ header{
 header .header-container{
     display: flex;
     color: white;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Rubik', sans-serif;
     padding: 15px;
-    min-height: 40px;
-
+    min-height: 60px;
 }
 header .logo{
     margin-left: 5%;
     cursor: pointer;
 }
 header nav{
-    margin-top: 3px;
+    margin-top: 10px;
 }
 header nav ul{
     display: flex;
@@ -129,6 +128,7 @@ header input:checked ~ label .menu{
         text-align: center;
         padding: 20px;
         display: block;
+        margin-left: 0px;
     }
 }
 
