@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="img/favSpotify.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/estilo.css">
         <title>Spotify</title>
 
@@ -15,28 +16,39 @@
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img width="100px" src="img/logoSpoify.png" alt="logoSpotify">
-            </div>
-            
-            <div class="box">
+            <div class="header-container">
+                <div class="logo">
+                    <img width="100px" src="img/logoSpoify.png" alt="logoSpotify">
+                </div>
+                
                 <nav>
-                <p>Premium</p>
-                <p>Suporte</p>
-                <p>Baixar</p>
+                    <input type="checkbox" id="menu-hamburguer">
+                    <label for="menu-hamburguer"></label>
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                    
+                    <ul>
+                        <li>
+                            <a>Premium</a   >
+                        </li>
+                        <li>
+                            <a>Suporte</a>
+                        </li>
+                        <li>
+                            <a>Baixar</a>
+                        </li>
+                        <li class="barra">
+                            <img src="img/barra.png" width="15px" alt="barra">
+                        </li>
+                        <li class="boxPerfil>
+                            <img class="imgPerfil" height="30px" src="img/perfil.png" alt="imagem Perfil">
+                            <a class="inc">Increva-se</a>
+                            <a class="ent">Entrar</a>
+                        </li>
+                    </ul>
                 </nav>
-
-                <div class="barra">
-                    <img src="img/barra.png" width="15px" alt="barra">
-                </div>
-
-                <div class="boxPerfil">
-                    <img class="imgPerfil" height="30px" src="img/perfil.png" alt="imagem Perfil">
-                    <p class="inc">Increva-se</p>
-                    <p class="ent">Entrar</p>
-                </div>
             </div>
-            
         </header>
 
         <main>
