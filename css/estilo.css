@@ -124,9 +124,13 @@ header input:checked ~ label .menu{
         background-color: black;
         padding: 20px;
     }
-    header nav ul a{
+    @media(max-width: 375px){
+        header nav ul{
+            width: 140px;
+        }
+    }
+    header nav ul li a{
         text-align: center;
-        padding: 20px;
         display: block;
         margin-left: 0px;
     }
@@ -142,16 +146,21 @@ main{
     justify-content: center;
     height: 80vh;
     gap: 10%;
+    padding: 30px;
 }
 @media(max-width: 780px){
     main{
         flex-direction: column-reverse;
     }
 }
+@media(max-width: 350px){
+    main img{
+        width: 250px;
+    }
+}
 main .boxTxt{
     font-family: 'Rubik', sans-serif;
-    margin-left: 30px;
-    width: 400px;
+    max-width: 400px;
     z-index: 2;
 
 }
@@ -191,8 +200,7 @@ footer{
     font-family: 'Rubik', sans-serif;
 }
 footer .logo{
-    float: left;
-    margin-right: 15px;
+    margin-right: 50px;
 }
 footer h1{
     font-size: 12px;
@@ -213,6 +221,19 @@ footer .footer1 .boxEmpresa p,
  .footer1 .boxComunidade p,
   .footer1 .boxLinks p{
     margin-top: 20px;
+}
+footer .footer1 .boxEmpresa ,
+ .footer1 .boxComunidade ,
+  .footer1 .boxLinks {
+    width: 150px;
+}
+@media(max-width: 380px){
+    footer .footer1{
+        justify-content: center;
+    }
+    footer .logo{
+
+    }
 }
 footer .footer1 .boxEmpresa p:hover,
  .footer1 .boxComunidade p:hover,
